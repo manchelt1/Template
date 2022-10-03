@@ -830,6 +830,74 @@ section {
   background-color: #29b4dd;
 }
 
+
+/*--------------------------------------------------------------
+# Cifras
+--------------------------------------------------------------*/
+
+.cifras .cifras-background{
+
+background-color: #0ff;
+
+}
+
+.cifras .columna-1{
+  color: #2bce54;
+  padding-bottom: 30px;
+ 
+}
+
+.cifras .columna-1 p{
+  font-size: larger;
+  padding-bottom: 30px;
+ 
+}
+
+
+.cifras .columna-2{
+  color: #ce5b38;
+  padding-bottom: 30px;
+  
+}
+
+
+.cifras .columna-2 p{
+  font-size: larger;
+  padding-bottom: 30px;
+ 
+}
+
+.cifras .columna-3{
+  color: #d1af3f;
+  padding-bottom: 30px;
+}
+
+
+.cifras .columna-3 p{
+  font-size: larger;
+  padding-bottom: 30px;
+ 
+}
+
+.cifras .columna-4{
+  color: #2734e7;
+  padding-bottom: 30px;
+  
+}
+
+
+.cifras .columna-4 p{
+  font-size: larger;
+  padding-bottom: 30px;
+ 
+}
+
+
+
+
+/*--------------------------------------------------------------
+# End Cifras
+--------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -959,19 +1027,22 @@ section {
 }
 
 .shape-inner {	
-
-  width: 144px;
+  height: 140px;
+  width: 140px;
   background-size: cover;
   margin: auto;
+  max-width: 100%;
+  
 }
 
 .shape-outer {
   display: flex;
   flex-shrink: 0;
-  width: 145px;
+  height: 149px;
+  width: 150px;
   margin: 10px;
   padding: 4px;
-  background-image: linear-gradient(to bottom right, #b2e619, #34a4c1, #0ff);
+  background-image: linear-gradient(to bottom right, #43b5d8, #5dd64d, rgb(188, 216, 88));
 }
 
 .circle {
